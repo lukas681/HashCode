@@ -1,5 +1,6 @@
 package com.hashcode.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,7 +8,7 @@ import java.util.List;
  * API can often change during contest
  */
 public class DataModel {
-    public void addData(String... data) {
+    public void addData(ArrayList<String[]> data) {
 
     }
     public void solveProblem() {

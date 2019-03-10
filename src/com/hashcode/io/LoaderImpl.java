@@ -4,6 +4,7 @@ import com.hashcode.model.DataModel;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class LoaderImpl implements Loader {
 
@@ -13,13 +14,14 @@ public class LoaderImpl implements Loader {
         String line = "";
         String csvSplitBy = delim;
         DataModel dm = new DataModel();
-        ArrayList<String> tags;
 
         try {
             br = new BufferedReader(new FileReader(csvFile));
             br.readLine();
+            ArrayList<String[]> data = new ArrayList<>();
             while ((line = br.readLine()) != null) {
-                dm.addData(line.split(csvSplitBy));
+                data.add(line.split(csvSplitBy));
+                dm.addData(data);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

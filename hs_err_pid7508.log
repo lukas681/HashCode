@@ -78,7 +78,7 @@ Event: 0.673 Thread 0x000000001edbb000  377       3       java.util.stream.Refer
 Event: 0.673 Thread 0x000000001edbb000 nmethod 377 0x0000000003591cd0 code [0x0000000003591e40, 0x0000000003592198]
 Event: 0.673 Thread 0x000000001edbb000  379       3       java.util.ArrayList$ArrayListSpliterator::forEachRemaining (129 bytes)
 Event: 0.673 Thread 0x000000001edbb000 nmethod 379 0x0000000003594810 code [0x00000000035949e0, 0x0000000003595048]
-Event: 0.673 Thread 0x000000001edbb000  378       3       com.company.SlideShowSolver$$Lambda$2/1873653341::test (12 bytes)
+Event: 0.673 Thread 0x000000001edbb000  378       3       com.hashcode.SlideShowSolver$$Lambda$2/1873653341::test (12 bytes)
 Event: 0.673 Thread 0x000000001edbb000 nmethod 378 0x0000000003594150 code [0x00000000035942c0, 0x0000000003594650]
 Event: 0.675 Thread 0x000000001edbb000  380       3       java.lang.invoke.MethodType::parameterCount (6 bytes)
 Event: 0.675 Thread 0x000000001edbb000 nmethod 380 0x0000000003593dd0 code [0x0000000003593f20, 0x0000000003594090]
@@ -137,14 +137,14 @@ Event: 0.501 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=
 Event: 0.528 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000034e3f10 method=java.io.BufferedReader.readLine(Z)Ljava/lang/String; @ 55
 Event: 0.535 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000034d30b8 method=java.util.Arrays.copyOf([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; @ 3
 Event: 0.577 Thread 0x0000000003283800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00000000034e2788 method=java.util.AbstractCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object; @ 1
-Event: 0.672 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000359bf4c method=com.company.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
-Event: 0.673 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000358e9e8 method=com.company.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
-Event: 0.673 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000358e548 method=com.company.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
+Event: 0.672 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000359bf4c method=com.hashcode.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
+Event: 0.673 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000358e9e8 method=com.hashcode.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
+Event: 0.673 Thread 0x0000000003283800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000358e548 method=com.hashcode.SlideShowSolver.lambda$solve$1(ILcom/company/Photo;)Z @ 5
 
 Classes redefined (3 events):
-Event: 26.383 Thread 0x000000001cd99800 redefined class name=com.company.SlideShowSolver, count=1
-Event: 50.551 Thread 0x000000001cd99800 redefined class name=com.company.SlideShowSolver, count=2
-Event: 325.020 Thread 0x000000001cd99800 redefined class name=com.company.SlideShowSolver, count=3
+Event: 26.383 Thread 0x000000001cd99800 redefined class name=com.hashcode.SlideShowSolver, count=1
+Event: 50.551 Thread 0x000000001cd99800 redefined class name=com.hashcode.SlideShowSolver, count=2
+Event: 325.020 Thread 0x000000001cd99800 redefined class name=com.hashcode.SlideShowSolver, count=3
 
 Internal exceptions (4 events):
 Event: 0.053 Thread 0x0000000003283800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x000000076b407cb0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u181\11358\hotspot
@@ -212,7 +212,7 @@ Dynamic libraries:
 
 VM Arguments:
 jvm_args: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:56991,suspend=y,server=n -javaagent:C:\Users\lukas\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.3684.101\lib\rt\debugger-agent.jar=file:/C:/Users/lukas/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 
-java_command: com.company.Main
+java_command: com.hashcode.Main
 java_class_path (initial): C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Users\lukas\Documents\Github\HashCode\out\production\HashCode;C:\Users\lukas\Documents\Github\HashCode\lib\junit-4.12.jar;C:\Users\lukas\Documents\Github\HashCode\lib\hamcrest-core-1.3.jar;C:\Users\lukas\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.3684.101\lib\idea_rt.jar;C:\Users\lukas\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\182.3684.101\lib\rt\debugger-agent.jar
 Launcher Type: SUN_STANDARD
 
