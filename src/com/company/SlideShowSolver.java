@@ -2,56 +2,89 @@ package com.company;
 
 import com.company.IO.Loader;
 import com.company.IO.Writer;
-import com.company.TSP.TspDynamicProgrammingIterative;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.stream.Collectors;
 
 public class SlideShowSolver {
 
     ArrayList<Photo> photos;
-    boolean[] visited = new boolean[photos.size()];
+    ArrayList<ArrayList<Photo>> subSlideShows = new ArrayList<>();
 
     Loader l = new Loader();
     Writer w = new Writer();
     SlideShow sl = new SlideShow();
 
-
-    // TODO Refactor code!!
+    /**
+     *  Strategy: Take the first element in photo list and compare it to the n next photos.
+     *  Take the one with the highest score and add both to a chain.
+     */
     public void solve() {
-        photos = l.loadData("res/b_lovely_landscapes.txt"," ");
+        photos = l.loadData("res/b_lovely_landscapes.txt", " ");
         restructure();
-        int CUTAT = 10000, maxScore = 0;
 
-            // ArrayList<Photo> cluster = photos.stream().
-               //     filter(x -> x.getNumTags() == finalI).collect(Collectors.toCollection(ArrayList::new));
-        for(int i = 0; i < CUTAT; i+=25){ // We will ignore those images at a specific threshold.
-            maxScore = 0; // Maximal Score for one element in photo ds
-            Photo maxPhoto = null;
-            if(visited[i]){
+        final int RANGE = 1000;
 
+        while (!photos.isEmpty()) {
+            ArrayList<Photo> sub = new ArrayList<>();
+
+            if(photos.size()==1) // Problem: The same Photo can be returned
+            {
+                System.out.println("Last Element!");
+                sub.add(photos.get(0));
+                subSlideShows.add(sub);
+                photos.remove(0);
+                continue;
             }
-            for(int y = i; y < photos.size(); y++){
-                int score = calcScore(photos.get(i), photos.get(y));
-                if(score > maxScore){
-                    maxScore = score;
-                    maxPhoto = photos.get(y);
-                }
-            }
-            System.out.println(i + " " +maxScore);
+            Photo bestNext = bestOfNextNAndNotVisited(RANGE);
+
+            sub.add(photos.get(0)); // Add it to a sublist
+            sub.add(bestNext);
+
+            // Remove from original list
+            photos.remove(0);
+            photos.remove(bestNext);
+
+            subSlideShows.add(sub);
         }
-        }
+        System.out.println("Test for debugging");
+        subSlideShows.forEach(x->x.forEach(y->sl.addHorizontal(y)));
+        System.out.println("Test");
+        w.writeSlideShow(sl);
+    }
+
 
     public int calcScore(Photo a, Photo b) {
-
         int numberOfIntersectingElements = a.tags.stream().filter(c -> b.tags.contains(c)).collect(Collectors.toList()).size();
         return Math.min(Math.min(a.tags.size()-numberOfIntersectingElements,b.tags.size()-numberOfIntersectingElements), numberOfIntersectingElements);
     }
 
     public void restructure(){
         photos.sort((o1, o2) -> o2.getNumTags() - o1.getNumTags());
-
     }
 
+    /** Start from Top and returns within the next n Photos the best one. Uses clock arithmetic
+     *
+     * @param n
+     * @return
+     */
+    public Photo bestOfNextNAndNotVisited(int n){
+        // What if there is no more
+        int mod = photos.size()-1;
+        int max = -1;
+        Photo pMax = null;
+        Photo p1 = photos.get(0);
+        Photo p2;
+
+        for(int i = 0; i < n; i++){
+           p2 =  photos.get(i%mod+1);  // Should be a value between 1 and size and will exclude the photo at pos 0
+           int score = calcScore(p1, p2);
+           if(score> max) {
+               max = score;
+               pMax = p2;
+           }
+        }
+
+        return pMax;
+    }
 }

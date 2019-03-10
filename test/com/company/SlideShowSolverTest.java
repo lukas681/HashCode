@@ -31,6 +31,11 @@ public class SlideShowSolverTest {
 
         assertTrue(solv.calcScore(a, a) == 0);
         assertTrue(solv.calcScore(b, b) == 0);
+        assertTrue(solv.calcScore(a,b) == 2);
 
+        tags1.add("677");
+        tags1.add("1237");
+
+        assertTrue(solv.calcScore(a, b) == 2);
     }
 }
