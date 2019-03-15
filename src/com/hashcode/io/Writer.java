@@ -7,5 +7,5 @@ public interface Writer {
      * Used to write the challenges' datamodel to a file
      * @param dm
      */
-    void write(DataModel dm);
+    void write(DataModel dm, String filename);
 }

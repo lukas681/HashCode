@@ -1,6 +1,6 @@
 package com.hashcode.model;
 
 public interface Solver {
-    void solve();
+    void solve(String filename, String outputfile);
 
 }

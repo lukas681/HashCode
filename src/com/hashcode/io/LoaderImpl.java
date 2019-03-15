@@ -17,12 +17,11 @@ public class LoaderImpl implements Loader {
 
         try {
             br = new BufferedReader(new FileReader(csvFile));
-            br.readLine();
             ArrayList<String[]> data = new ArrayList<>();
             while ((line = br.readLine()) != null) {
                 data.add(line.split(csvSplitBy));
-                dm.addData(data);
             }
+            dm.addData(data);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
