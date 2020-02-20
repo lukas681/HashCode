@@ -2,36 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4ee568-032d-4793-ba37-a212c1ff4f16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gurobi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gurobi_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/a_example.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/b_small.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/c_medium.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/d_quite_big.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/e_also_big.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/IO/ProblemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/a_example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/c_incunabula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/d_tough_choices.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/e_so_many_books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/f_libraries_of_the_world.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/IO/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/DoublePhoto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/a_example.in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/a_example.in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/b_small.in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/b_small.in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/c_medium.in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/c_medium.in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/Loader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/ProblemData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/ProblemData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/com/company/IO/Writer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/Photo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/SlideShow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/SlideShowSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/com/company/TSP/TspDynamicProgrammingIterative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HashCode/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HashCode/com/company/SlideShowSolverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DoublePhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/d_quite_big.in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/d_quite_big.in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HashCode/e_also_big.in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HashCode/e_also_big.in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/a_example.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/a_example.in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_lovely_landscapes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_small.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_small.in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/c_medium.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/c_medium.in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/d_quite_big.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/d_quite_big.in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/e_also_big.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/e_also_big.in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/output.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/IO/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IO/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IO/ProblemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IO/ProblemData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/IO/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IO/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Java/DynamicProgramming/FordFulkerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Java/DynamicProgramming/FordFulkerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Photo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SlideShow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SlideShowSolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TSP/TspDynamicProgrammingIterative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/company/SlideShowSolverTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,15 +52,11 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>in</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y2eqYp2Q9mcKO0fTpHYZtBbh6i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -71,6 +71,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,8 +81,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.IO" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\Documents\Github\HashCode\res" />
+      <recent name="C:\Users\lukas\Documents\Github\HashCode\src\com\company" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\A613933\Documents\Git\HashCode\res" />
@@ -90,9 +92,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lukas\Documents\Github\HashCode\res" />
-      <recent name="C:\Users\lukas\Documents\Github\HashCode\src\com\company" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.IO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,12 +109,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.IO.Loader" />
+    <configuration name="BogoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts.BogoSort" />
       <module name="HashCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.IO.*" />
+          <option name="PATTERN" value="Sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FordFulkerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.FordFulkerson" />
+      <module name="HashCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TspDynamicProgrammingIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TSP.TspDynamicProgrammingIterative" />
-      <module name="HashCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.IO.Writer" />
+    <configuration name="RSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ciphers.RSA" />
       <module name="HashCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.IO.*" />
+          <option name="PATTERN" value="ciphers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Loader" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TspDynamicProgrammingIterative" />
-      <item itemvalue="Application.Writer" />
+      <item itemvalue="Application.FordFulkerson" />
+      <item itemvalue="Application.BogoSort" />
+      <item itemvalue="Application.RSA" />
       <item itemvalue="JUnit.SlideShowSolverTest.calcScore" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RSA" />
+        <item itemvalue="Application.BogoSort" />
+        <item itemvalue="Application.FordFulkerson" />
         <item itemvalue="JUnit.SlideShowSolverTest.calcScore" />
-        <item itemvalue="Application.TspDynamicProgrammingIterative" />
-        <item itemvalue="Application.Writer" />
-        <item itemvalue="Application.Loader" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +203,7 @@
       <updated>1551549902853</updated>
       <workItem from="1551549905572" duration="10838000" />
       <workItem from="1582145313974" duration="6324000" />
+      <workItem from="1582217158288" duration="11364000" />
     </task>
     <servers />
   </component>
@@ -230,19 +238,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/com/company/Java/Maths/PrimeCheck.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/IO/ProblemData.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
